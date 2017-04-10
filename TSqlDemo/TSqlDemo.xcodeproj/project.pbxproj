@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92810B61E855736000C17A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810B51E855736000C17A6 /* main.m */; };
+		C92810B91E855736000C17A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810B81E855736000C17A6 /* AppDelegate.m */; };
+		C92810BC1E855736000C17A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810BB1E855736000C17A6 /* ViewController.m */; };
+		C92810BF1E855736000C17A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92810BD1E855736000C17A6 /* Main.storyboard */; };
+		C92810C11E855736000C17A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92810C01E855736000C17A6 /* Assets.xcassets */; };
+		C92810C41E855736000C17A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92810C21E855736000C17A6 /* LaunchScreen.storyboard */; };
+		C92810CF1E855736000C17A6 /* TSqlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810CE1E855736000C17A6 /* TSqlDemoTests.m */; };
+		C92810DA1E855736000C17A6 /* TSqlDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810D91E855736000C17A6 /* TSqlDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C92810CB1E855736000C17A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C92810A91E855735000C17A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C92810B01E855735000C17A6;
+			remoteInfo = TSqlDemo;
+		};
+		C92810D61E855736000C17A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C92810A91E855735000C17A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C92810B01E855735000C17A6;
+			remoteInfo = TSqlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C92810B11E855736000C17A6 /* TSqlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSqlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92810B51E855736000C17A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C92810B71E855736000C17A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C92810B81E855736000C17A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C92810BA1E855736000C17A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C92810BB1E855736000C17A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C92810BE1E855736000C17A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C92810C01E855736000C17A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C92810C31E855736000C17A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C92810C51E855736000C17A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92810CA1E855736000C17A6 /* TSqlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSqlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92810CE1E855736000C17A6 /* TSqlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSqlDemoTests.m; sourceTree = "<group>"; };
+		C92810D01E855736000C17A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92810D51E855736000C17A6 /* TSqlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSqlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92810D91E855736000C17A6 /* TSqlDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSqlDemoUITests.m; sourceTree = "<group>"; };
+		C92810DB1E855736000C17A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D6C6C91E9BC19E00CD8E8F /* TSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSqlite.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92810AE1E855735000C17A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92810C71E855736000C17A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92810D21E855736000C17A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92810A81E855735000C17A6 = {
+			isa = PBXGroup;
+			children = (
+				C9D6C6C81E9BC19200CD8E8F /* TSqlite */,
+				C92810B31E855736000C17A6 /* TSqlDemo */,
+				C92810CD1E855736000C17A6 /* TSqlDemoTests */,
+				C92810D81E855736000C17A6 /* TSqlDemoUITests */,
+				C92810B21E855736000C17A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C92810B21E855736000C17A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92810B11E855736000C17A6 /* TSqlDemo.app */,
+				C92810CA1E855736000C17A6 /* TSqlDemoTests.xctest */,
+				C92810D51E855736000C17A6 /* TSqlDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92810B31E855736000C17A6 /* TSqlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C92810B71E855736000C17A6 /* AppDelegate.h */,
+				C92810B81E855736000C17A6 /* AppDelegate.m */,
+				C92810BA1E855736000C17A6 /* ViewController.h */,
+				C92810BB1E855736000C17A6 /* ViewController.m */,
+				C92810BD1E855736000C17A6 /* Main.storyboard */,
+				C92810C01E855736000C17A6 /* Assets.xcassets */,
+				C92810C21E855736000C17A6 /* LaunchScreen.storyboard */,
+				C92810C51E855736000C17A6 /* Info.plist */,
+				C92810B41E855736000C17A6 /* Supporting Files */,
+			);
+			path = TSqlDemo;
+			sourceTree = "<group>";
+		};
+		C92810B41E855736000C17A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C92810B51E855736000C17A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C92810CD1E855736000C17A6 /* TSqlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C92810CE1E855736000C17A6 /* TSqlDemoTests.m */,
+				C92810D01E855736000C17A6 /* Info.plist */,
+			);
+			path = TSqlDemoTests;
+			sourceTree = "<group>";
+		};
+		C92810D81E855736000C17A6 /* TSqlDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C92810D91E855736000C17A6 /* TSqlDemoUITests.m */,
+				C92810DB1E855736000C17A6 /* Info.plist */,
+			);
+			path = TSqlDemoUITests;
+			sourceTree = "<group>";
+		};
+		C9D6C6C81E9BC19200CD8E8F /* TSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6C6C91E9BC19E00CD8E8F /* TSqlite.h */,
+			);
+			path = TSqlite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C92810B01E855735000C17A6 /* TSqlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92810DE1E855736000C17A6 /* Build configuration list for PBXNativeTarget "TSqlDemo" */;
+			buildPhases = (
+				C92810AD1E855735000C17A6 /* Sources */,
+				C92810AE1E855735000C17A6 /* Frameworks */,
+				C92810AF1E855735000C17A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSqlDemo;
+			productName = TSqlDemo;
+			productReference = C92810B11E855736000C17A6 /* TSqlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C92810C91E855736000C17A6 /* TSqlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92810E11E855736000C17A6 /* Build configuration list for PBXNativeTarget "TSqlDemoTests" */;
+			buildPhases = (
+				C92810C61E855736000C17A6 /* Sources */,
+				C92810C71E855736000C17A6 /* Frameworks */,
+				C92810C81E855736000C17A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C92810CC1E855736000C17A6 /* PBXTargetDependency */,
+			);
+			name = TSqlDemoTests;
+			productName = TSqlDemoTests;
+			productReference = C92810CA1E855736000C17A6 /* TSqlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C92810D41E855736000C17A6 /* TSqlDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92810E41E855736000C17A6 /* Build configuration list for PBXNativeTarget "TSqlDemoUITests" */;
+			buildPhases = (
+				C92810D11E855736000C17A6 /* Sources */,
+				C92810D21E855736000C17A6 /* Frameworks */,
+				C92810D31E855736000C17A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C92810D71E855736000C17A6 /* PBXTargetDependency */,
+			);
+			name = TSqlDemoUITests;
+			productName = TSqlDemoUITests;
+			productReference = C92810D51E855736000C17A6 /* TSqlDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92810A91E855735000C17A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李浩";
+				TargetAttributes = {
+					C92810B01E855735000C17A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C92810C91E855736000C17A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C92810B01E855735000C17A6;
+					};
+					C92810D41E855736000C17A6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C92810B01E855735000C17A6;
+					};
+				};
+			};
+			buildConfigurationList = C92810AC1E855735000C17A6 /* Build configuration list for PBXProject "TSqlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C92810A81E855735000C17A6;
+			productRefGroup = C92810B21E855736000C17A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92810B01E855735000C17A6 /* TSqlDemo */,
+				C92810C91E855736000C17A6 /* TSqlDemoTests */,
+				C92810D41E855736000C17A6 /* TSqlDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92810AF1E855735000C17A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92810C41E855736000C17A6 /* LaunchScreen.storyboard in Resources */,
+				C92810C11E855736000C17A6 /* Assets.xcassets in Resources */,
+				C92810BF1E855736000C17A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92810C81E855736000C17A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92810D31E855736000C17A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92810AD1E855735000C17A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92810BC1E855736000C17A6 /* ViewController.m in Sources */,
+				C92810B91E855736000C17A6 /* AppDelegate.m in Sources */,
+				C92810B61E855736000C17A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92810C61E855736000C17A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92810CF1E855736000C17A6 /* TSqlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92810D11E855736000C17A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92810DA1E855736000C17A6 /* TSqlDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C92810CC1E855736000C17A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C92810B01E855735000C17A6 /* TSqlDemo */;
+			targetProxy = C92810CB1E855736000C17A6 /* PBXContainerItemProxy */;
+		};
+		C92810D71E855736000C17A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C92810B01E855735000C17A6 /* TSqlDemo */;
+			targetProxy = C92810D61E855736000C17A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C92810BD1E855736000C17A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92810BE1E855736000C17A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C92810C21E855736000C17A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92810C31E855736000C17A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C92810DC1E855736000C17A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C92810DD1E855736000C17A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C92810DF1E855736000C17A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSqlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LH.TSqlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C92810E01E855736000C17A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSqlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LH.TSqlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C92810E21E855736000C17A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSqlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LH.TSqlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSqlDemo.app/TSqlDemo";
+			};
+			name = Debug;
+		};
+		C92810E31E855736000C17A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSqlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LH.TSqlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSqlDemo.app/TSqlDemo";
+			};
+			name = Release;
+		};
+		C92810E51E855736000C17A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSqlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LH.TSqlDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSqlDemo;
+			};
+			name = Debug;
+		};
+		C92810E61E855736000C17A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSqlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LH.TSqlDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSqlDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92810AC1E855735000C17A6 /* Build configuration list for PBXProject "TSqlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92810DC1E855736000C17A6 /* Debug */,
+				C92810DD1E855736000C17A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92810DE1E855736000C17A6 /* Build configuration list for PBXNativeTarget "TSqlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92810DF1E855736000C17A6 /* Debug */,
+				C92810E01E855736000C17A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92810E11E855736000C17A6 /* Build configuration list for PBXNativeTarget "TSqlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92810E21E855736000C17A6 /* Debug */,
+				C92810E31E855736000C17A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92810E41E855736000C17A6 /* Build configuration list for PBXNativeTarget "TSqlDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92810E51E855736000C17A6 /* Debug */,
+				C92810E61E855736000C17A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C92810A91E855735000C17A6 /* Project object */;
+}

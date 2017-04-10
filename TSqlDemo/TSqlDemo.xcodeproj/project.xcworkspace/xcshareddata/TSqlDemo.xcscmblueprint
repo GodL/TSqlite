@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8C0A77FC9CD93D3C18A2EF08065E5FD6C0EC4341",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1E6A6AFA8FD184A9666119397C1D8872BE1E4596" : 9223372036854775807,
+    "8C0A77FC9CD93D3C18A2EF08065E5FD6C0EC4341" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8F545398-60A5-4D1D-85D5-D3E58B9B010C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1E6A6AFA8FD184A9666119397C1D8872BE1E4596" : "",
+    "8C0A77FC9CD93D3C18A2EF08065E5FD6C0EC4341" : "TSqlite\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TSqlDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TSqlDemo\/TSqlDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/godL\/LHDB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E6A6AFA8FD184A9666119397C1D8872BE1E4596"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TheCreatorL\/TSqlite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C0A77FC9CD93D3C18A2EF08065E5FD6C0EC4341"
+    }
+  ]
+}
