@@ -52,6 +52,7 @@
 		C92810D91E855736000C17A6 /* TSqlDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSqlDemoUITests.m; sourceTree = "<group>"; };
 		C92810DB1E855736000C17A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D6C6C91E9BC19E00CD8E8F /* TSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSqlite.h; sourceTree = "<group>"; };
+		C9D6C6CA1E9BC25700CD8E8F /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				C9D6C6C91E9BC19E00CD8E8F /* TSqlite.h */,
+				C9D6C6CA1E9BC25700CD8E8F /* TProtocol.h */,
 			);
 			path = TSqlite;
 			sourceTree = "<group>";
