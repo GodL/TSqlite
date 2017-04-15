@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76F1EFD8877D6BFDB3F47484 /* libPods-TSqlDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E1A5BD4E74089BA79DE61E /* libPods-TSqlDemo.a */; };
 		C92810B61E855736000C17A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810B51E855736000C17A6 /* main.m */; };
 		C92810B91E855736000C17A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810B81E855736000C17A6 /* AppDelegate.m */; };
 		C92810BC1E855736000C17A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810BB1E855736000C17A6 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		C92810C41E855736000C17A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92810C21E855736000C17A6 /* LaunchScreen.storyboard */; };
 		C92810CF1E855736000C17A6 /* TSqlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810CE1E855736000C17A6 /* TSqlDemoTests.m */; };
 		C92810DA1E855736000C17A6 /* TSqlDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92810D91E855736000C17A6 /* TSqlDemoUITests.m */; };
+		C9B51D1D1EA12192007CBFF7 /* SqlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B51D1C1EA12192007CBFF7 /* SqlModel.m */; };
+		C9B51D211EA1D974007CBFF7 /* Sqlite.c in Sources */ = {isa = PBXBuildFile; fileRef = C9B51D1F1EA1D974007CBFF7 /* Sqlite.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F9919E6DD842334C4F975F /* Pods-TSqlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSqlDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSqlDemo/Pods-TSqlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		81358F89B3C61CAF3BFE681B /* Pods-TSqlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSqlDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSqlDemo/Pods-TSqlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		89E1A5BD4E74089BA79DE61E /* libPods-TSqlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSqlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92810B11E855736000C17A6 /* TSqlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSqlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92810B51E855736000C17A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C92810B71E855736000C17A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		C92810D51E855736000C17A6 /* TSqlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSqlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92810D91E855736000C17A6 /* TSqlDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSqlDemoUITests.m; sourceTree = "<group>"; };
 		C92810DB1E855736000C17A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B51D1B1EA12192007CBFF7 /* SqlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlModel.h; sourceTree = "<group>"; };
+		C9B51D1C1EA12192007CBFF7 /* SqlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlModel.m; sourceTree = "<group>"; };
+		C9B51D1F1EA1D974007CBFF7 /* Sqlite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sqlite.c; sourceTree = "<group>"; };
+		C9B51D201EA1D974007CBFF7 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
 		C9D6C6C91E9BC19E00CD8E8F /* TSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSqlite.h; sourceTree = "<group>"; };
 		C9D6C6CA1E9BC25700CD8E8F /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F1EFD8877D6BFDB3F47484 /* libPods-TSqlDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +99,8 @@
 				C92810CD1E855736000C17A6 /* TSqlDemoTests */,
 				C92810D81E855736000C17A6 /* TSqlDemoUITests */,
 				C92810B21E855736000C17A6 /* Products */,
+				E885821EA010BDDB341A42A0 /* Pods */,
+				D13852F86A0380E54E3619A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +121,8 @@
 				C92810B81E855736000C17A6 /* AppDelegate.m */,
 				C92810BA1E855736000C17A6 /* ViewController.h */,
 				C92810BB1E855736000C17A6 /* ViewController.m */,
+				C9B51D1B1EA12192007CBFF7 /* SqlModel.h */,
+				C9B51D1C1EA12192007CBFF7 /* SqlModel.m */,
 				C92810BD1E855736000C17A6 /* Main.storyboard */,
 				C92810C01E855736000C17A6 /* Assets.xcassets */,
 				C92810C21E855736000C17A6 /* LaunchScreen.storyboard */,
@@ -143,13 +158,40 @@
 			path = TSqlDemoUITests;
 			sourceTree = "<group>";
 		};
+		C9B51D1E1EA1D8E6007CBFF7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C9B51D1F1EA1D974007CBFF7 /* Sqlite.c */,
+				C9B51D201EA1D974007CBFF7 /* Sqlite.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		C9D6C6C81E9BC19200CD8E8F /* TSqlite */ = {
 			isa = PBXGroup;
 			children = (
 				C9D6C6C91E9BC19E00CD8E8F /* TSqlite.h */,
 				C9D6C6CA1E9BC25700CD8E8F /* TProtocol.h */,
+				C9B51D1E1EA1D8E6007CBFF7 /* Core */,
 			);
 			path = TSqlite;
+			sourceTree = "<group>";
+		};
+		D13852F86A0380E54E3619A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E1A5BD4E74089BA79DE61E /* libPods-TSqlDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E885821EA010BDDB341A42A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81358F89B3C61CAF3BFE681B /* Pods-TSqlDemo.debug.xcconfig */,
+				00F9919E6DD842334C4F975F /* Pods-TSqlDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C92810DE1E855736000C17A6 /* Build configuration list for PBXNativeTarget "TSqlDemo" */;
 			buildPhases = (
+				8DBA4D22102C20F4F0F8744F /* [CP] Check Pods Manifest.lock */,
 				C92810AD1E855735000C17A6 /* Sources */,
 				C92810AE1E855735000C17A6 /* Frameworks */,
 				C92810AF1E855735000C17A6 /* Resources */,
+				9BC3765599E550B65F7DBBC9 /* [CP] Embed Pods Frameworks */,
+				AC98649689E267F4C9885882 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,13 +325,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DBA4D22102C20F4F0F8744F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC3765599E550B65F7DBBC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSqlDemo/Pods-TSqlDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC98649689E267F4C9885882 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSqlDemo/Pods-TSqlDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C92810AD1E855735000C17A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B51D211EA1D974007CBFF7 /* Sqlite.c in Sources */,
 				C92810BC1E855736000C17A6 /* ViewController.m in Sources */,
 				C92810B91E855736000C17A6 /* AppDelegate.m in Sources */,
+				C9B51D1D1EA12192007CBFF7 /* SqlModel.m in Sources */,
 				C92810B61E855736000C17A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +529,7 @@
 		};
 		C92810DF1E855736000C17A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81358F89B3C61CAF3BFE681B /* Pods-TSqlDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TSqlDemo/Info.plist;
@@ -445,6 +541,7 @@
 		};
 		C92810E01E855736000C17A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F9919E6DD842334C4F975F /* Pods-TSqlDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TSqlDemo/Info.plist;

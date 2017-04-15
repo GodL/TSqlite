@@ -9,5 +9,6 @@
 #ifndef TSqlite_h
 #define TSqlite_h
 
+#import "TProtocol.h
 
 #endif /* TSqlite_h */

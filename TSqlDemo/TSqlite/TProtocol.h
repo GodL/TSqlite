@@ -10,9 +10,12 @@
 
 @protocol TProtocol <NSObject>
 
-@optional
-
 + (NSString*)tableName;
 
++ (NSString*)primaryKey;
+
++ (NSArray<NSString*>*)ignoredProperties;
+
++ (NSArray<NSString*>*)requiredProperties;
 
 @end

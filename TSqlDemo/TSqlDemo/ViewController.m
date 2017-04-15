@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <YYModel/YYModel.h>
+#import "SqlModel.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    YYClassInfo* info = [YYClassInfo classInfoWithClass:[SqlModel class]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
